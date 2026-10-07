@@ -6,9 +6,6 @@
     "category": "Localization",
     "license": "LGPL-3",
     "author": "Gout",
-    "maintainer": "Gout",
-    "website": "https://github.com/khaid2849/vn-address",
-    "support": "dangkhai2849@gmail.com",
     "depends": ["base_address_extended", "contacts"],
     "external_dependencies": {"python": ["requests"]},
     "data": [

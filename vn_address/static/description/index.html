@@ -1,11 +1,3 @@
-<!--
-    Images to add in this folder:
-    - icon.png               module icon (square, 256x256 recommended)
-    - banner.png             App Store cover, referenced by "images" in __manifest__.py (560x280)
-    - screenshot_list.png    the "Vietnam: Communes / Wards" list
-    - screenshot_sync.png    the "Sync from AddressKit" button and its notification
-    - screenshot_contact.png a contact address with a commune selected
--->
 <section class="oe_container">
     <div class="oe_row oe_spaced">
         <h2 class="oe_slogan">Vietnam Administrative Units</h2>
@@ -13,8 +5,10 @@
             34 provinces and 3,321 communes, wards and special zones after the 2025 reform,
             ready to use and kept up to date
         </h3>
-        <div class="oe_demo oe_picture oe_screenshot">
-            <img src="screenshot_list.png" alt="Communes and wards of Vietnam" />
+        <div style="clear: both; text-align: center; margin: 24px auto 0; max-width: 980px;">
+            <img src="screenshot_list.png" alt="Communes and wards of Vietnam" class="img-fluid oe_screenshot"
+                 style="display: block; width: 100%; max-width: 980px; height: auto; margin: 0 auto;
+                        border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);"/>
         </div>
     </div>
 </section>
@@ -45,12 +39,14 @@
 <section class="oe_container">
     <div class="oe_row oe_spaced">
         <h2 class="oe_slogan">Synchronise with one click</h2>
-        <p class="oe_mt32">
-            Administrators can refresh the list from <em>Contacts › Configuration › Vietnam: Communes / Wards</em>.
+        <p class="oe_mt32" style="text-align: center; max-width: 980px; margin-left: auto; margin-right: auto;">
+            Administrators can refresh the list from <em>Contacts/Configuration/Vietnam: Communes / Wards</em>.
             The result shows how many units were created, updated, archived and restored.
         </p>
-        <div class="oe_demo oe_picture oe_screenshot">
-            <img src="screenshot_sync.png" alt="Sync from AddressKit" />
+        <div style="clear: both; text-align: center; margin: 24px auto 0; max-width: 980px;">
+            <img src="screenshot_sync.png" alt="Sync from AddressKit" class="img-fluid oe_screenshot"
+                 style="display: block; width: 100%; max-width: 980px; height: auto; margin: 0 auto;
+                        border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);"/>
         </div>
     </div>
 </section>
@@ -58,12 +54,14 @@
 <section class="oe_container oe_dark">
     <div class="oe_row oe_spaced">
         <h2 class="oe_slogan">Pick the commune on your contacts</h2>
-        <p class="oe_mt32">
-            Enable <em>Enforce Cities</em> on Vietnam (<em>Contacts › Configuration › Countries</em>) to select the
+        <p class="oe_mt32" style="text-align: center; max-width: 980px; margin-left: auto; margin-right: auto;">
+            Enable <em>Enforce Cities</em> on Vietnam (<em>Contacts/Configuration/Countries</em>) to select the
             commune or ward from the official list on every address.
         </p>
-        <div class="oe_demo oe_picture oe_screenshot">
-            <img src="screenshot_contact.png" alt="Contact address with a commune" />
+        <div style="clear: both; text-align: center; margin: 24px auto 0; max-width: 980px;">
+            <img src="screenshot_contact.png" alt="Contact address with a commune" class="img-fluid oe_screenshot"
+                 style="display: block; width: 100%; max-width: 980px; height: auto; margin: 0 auto;
+                        border: 1px solid #ddd; border-radius: 4px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);"/>
         </div>
     </div>
 </section>
@@ -73,8 +71,7 @@
         <h2 class="oe_slogan">Good to know</h2>
         <ul>
             <li>
-                Province names are replaced by the official short names from the source, e.g. "Thừa Thiên - Huế"
-                becomes "Huế".
+                Province names are replaced by the official short names from the source.
             </li>
             <li>
                 Uninstalling deletes the communes loaded by the module; contacts keep their address text.
