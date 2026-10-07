@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <!-- ISO 3166-2 (Odoo) -> administrative code (Decision 19/2025/QD-TTg), used to match AddressKit -->
+    <record id="base.state_vn_VN-44" model="res.country.state">
+        <field name="vn_code">91</field>
+    </record>
+    <record id="base.state_vn_VN-56" model="res.country.state">
+        <field name="vn_code">24</field>
+    </record>
+    <record id="base.state_vn_VN-04" model="res.country.state">
+        <field name="vn_code">04</field>
+    </record>
+    <record id="base.state_vn_VN-59" model="res.country.state">
+        <field name="vn_code">96</field>
+    </record>
+    <record id="base.state_vn_VN-CT" model="res.country.state">
+        <field name="vn_code">92</field>
+    </record>
+    <record id="base.state_vn_VN-71" model="res.country.state">
+        <field name="vn_code">11</field>
+    </record>
+    <record id="base.state_vn_VN-33" model="res.country.state">
+        <field name="vn_code">66</field>
+    </record>
+    <record id="base.state_vn_VN-DN" model="res.country.state">
+        <field name="vn_code">48</field>
+    </record>
+    <record id="base.state_vn_VN-39" model="res.country.state">
+        <field name="vn_code">75</field>
+    </record>
+    <record id="base.state_vn_VN-45" model="res.country.state">
+        <field name="vn_code">82</field>
+    </record>
+    <record id="base.state_vn_VN-30" model="res.country.state">
+        <field name="vn_code">52</field>
+    </record>
+    <record id="base.state_vn_VN-SG" model="res.country.state">
+        <field name="vn_code">79</field>
+    </record>
+    <record id="base.state_vn_VN-HN" model="res.country.state">
+        <field name="vn_code">01</field>
+    </record>
+    <record id="base.state_vn_VN-HP" model="res.country.state">
+        <field name="vn_code">31</field>
+    </record>
+    <record id="base.state_vn_VN-23" model="res.country.state">
+        <field name="vn_code">42</field>
+    </record>
+    <record id="base.state_vn_VN-66" model="res.country.state">
+        <field name="vn_code">33</field>
+    </record>
+    <record id="base.state_vn_VN-34" model="res.country.state">
+        <field name="vn_code">56</field>
+    </record>
+    <record id="base.state_vn_VN-02" model="res.country.state">
+        <field name="vn_code">15</field>
+    </record>
+    <record id="base.state_vn_VN-01" model="res.country.state">
+        <field name="vn_code">12</field>
+    </record>
+    <record id="base.state_vn_VN-35" model="res.country.state">
+        <field name="vn_code">68</field>
+    </record>
+    <record id="base.state_vn_VN-09" model="res.country.state">
+        <field name="vn_code">20</field>
+    </record>
+    <record id="base.state_vn_VN-22" model="res.country.state">
+        <field name="vn_code">40</field>
+    </record>
+    <record id="base.state_vn_VN-18" model="res.country.state">
+        <field name="vn_code">37</field>
+    </record>
+    <record id="base.state_vn_VN-68" model="res.country.state">
+        <field name="vn_code">25</field>
+    </record>
+    <record id="base.state_vn_VN-13" model="res.country.state">
+        <field name="vn_code">22</field>
+    </record>
+    <record id="base.state_vn_VN-29" model="res.country.state">
+        <field name="vn_code">51</field>
+    </record>
+    <record id="base.state_vn_VN-25" model="res.country.state">
+        <field name="vn_code">44</field>
+    </record>
+    <record id="base.state_vn_VN-05" model="res.country.state">
+        <field name="vn_code">14</field>
+    </record>
+    <record id="base.state_vn_VN-21" model="res.country.state">
+        <field name="vn_code">38</field>
+    </record>
+    <record id="base.state_vn_VN-69" model="res.country.state">
+        <field name="vn_code">19</field>
+    </record>
+    <record id="base.state_vn_VN-37" model="res.country.state">
+        <field name="vn_code">80</field>
+    </record>
+    <record id="base.state_vn_VN-07" model="res.country.state">
+        <field name="vn_code">08</field>
+    </record>
+    <record id="base.state_vn_VN-26" model="res.country.state">
+        <field name="vn_code">46</field>
+    </record>
+    <record id="base.state_vn_VN-49" model="res.country.state">
+        <field name="vn_code">86</field>
+    </record>
+</odoo>

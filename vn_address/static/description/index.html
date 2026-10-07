@@ -1,0 +1,88 @@
+<!--
+    Images to add in this folder:
+    - icon.png               module icon (square, 256x256 recommended)
+    - banner.png             App Store cover, referenced by "images" in __manifest__.py (560x280)
+    - screenshot_list.png    the "Vietnam: Communes / Wards" list
+    - screenshot_sync.png    the "Sync from AddressKit" button and its notification
+    - screenshot_contact.png a contact address with a commune selected
+-->
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Vietnam Administrative Units</h2>
+        <h3 class="oe_slogan">
+            34 provinces and 3,321 communes, wards and special zones after the 2025 reform,
+            ready to use and kept up to date
+        </h3>
+        <div class="oe_demo oe_picture oe_screenshot">
+            <img src="screenshot_list.png" alt="Communes and wards of Vietnam" />
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Key features</h2>
+        <ul>
+            <li>
+                Every commune, ward and special zone of Vietnam (Decision 19/2025/QD-TTg) as an Odoo city,
+                with its 5-digit administrative code, level and province.
+            </li>
+            <li>The 34 provinces of Odoo get their official administrative code and level.</li>
+            <li>Data available right after installation, without internet access.</li>
+            <li>
+                One-click synchronisation from the AddressKit API (source: National Statistics Office of Vietnam),
+                or a weekly scheduled action.
+            </li>
+            <li>
+                Safe updates: units that disappear are archived, never deleted, so existing addresses keep their
+                value; a partial or malformed answer from the API is rejected without changing anything.
+            </li>
+            <li>English and Vietnamese interface.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Synchronise with one click</h2>
+        <p class="oe_mt32">
+            Administrators can refresh the list from <em>Contacts › Configuration › Vietnam: Communes / Wards</em>.
+            The result shows how many units were created, updated, archived and restored.
+        </p>
+        <div class="oe_demo oe_picture oe_screenshot">
+            <img src="screenshot_sync.png" alt="Sync from AddressKit" />
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Pick the commune on your contacts</h2>
+        <p class="oe_mt32">
+            Enable <em>Enforce Cities</em> on Vietnam (<em>Contacts › Configuration › Countries</em>) to select the
+            commune or ward from the official list on every address.
+        </p>
+        <div class="oe_demo oe_picture oe_screenshot">
+            <img src="screenshot_contact.png" alt="Contact address with a commune" />
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan">Good to know</h2>
+        <ul>
+            <li>
+                Province names are replaced by the official short names from the source, e.g. "Thừa Thiên - Huế"
+                becomes "Huế".
+            </li>
+            <li>
+                Uninstalling deletes the communes loaded by the module; contacts keep their address text.
+            </li>
+            <li>
+                Data source: <a href="https://addresskit.cas.so/" target="_blank">AddressKit</a>, based on the
+                National Statistics Office of Vietnam.
+            </li>
+        </ul>
+    </div>
+</section>

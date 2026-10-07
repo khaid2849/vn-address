@@ -1,0 +1,199 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* vn_address
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 13:24+0000\n"
+"PO-Revision-Date: 2026-09-26 13:24+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: vn_address
+#. odoo-python
+#: code:addons/vn_address/models/res_city.py:0
+msgid ""
+"%(created)s created, %(updated)s updated, %(archived)s archived, "
+"%(restored)s restored."
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.fields,field_description:vn_address.field_res_city__active
+msgid "Active"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.fields,field_description:vn_address.field_res_city__vn_code
+#: model:ir.model.fields,field_description:vn_address.field_res_country_state__vn_code
+msgid "Administrative Code"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.fields,field_description:vn_address.field_res_city__vn_level
+#: model:ir.model.fields,field_description:vn_address.field_res_country_state__vn_level
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_search_vn
+msgid "Administrative Level"
+msgstr ""
+
+#. module: vn_address
+#. odoo-python
+#: code:addons/vn_address/models/res_city.py:0
+msgid "Administrative units synchronised"
+msgstr ""
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_search_vn
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_vn_form
+msgid "Archived"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.fields.selection,name:vn_address.selection__res_country_state__vn_level__city
+msgid "Centrally-run City"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model,name:vn_address.model_res_city
+msgid "City"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.fields.selection,name:vn_address.selection__res_city__vn_level__commune
+msgid "Commune"
+msgstr ""
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_vn_form
+msgid "Commune / Ward"
+msgstr ""
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_search_vn
+msgid "Communes"
+msgstr ""
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_vn_list
+msgid "Communes / Wards"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model,name:vn_address.model_res_country_state
+msgid "Country state"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.fields,field_description:vn_address.field_res_city__display_name
+#: model:ir.model.fields,field_description:vn_address.field_res_country_state__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.fields,field_description:vn_address.field_res_city__id
+#: model:ir.model.fields,field_description:vn_address.field_res_country_state__id
+msgid "ID"
+msgstr ""
+
+#. module: vn_address
+#: model_terms:ir.actions.act_window,help:vn_address.action_res_city_vn
+msgid "No administrative units yet"
+msgstr ""
+
+#. module: vn_address
+#. odoo-python
+#: code:addons/vn_address/models/res_city.py:0
+msgid "Only administrators can synchronise administrative units."
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.fields.selection,name:vn_address.selection__res_country_state__vn_level__province
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_search_vn
+msgid "Province"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.fields,field_description:vn_address.field_res_city__vn_decree
+msgid "Resolution"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.fields.selection,name:vn_address.selection__res_city__vn_level__special_zone
+msgid "Special Zone"
+msgstr ""
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_search_vn
+msgid "Special Zones"
+msgstr ""
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_vn_list
+msgid "Sync from AddressKit"
+msgstr ""
+
+#. module: vn_address
+#. odoo-python
+#: code:addons/vn_address/models/res_city.py:0
+msgid ""
+"Synchronisation failed, nothing was changed:\n"
+"%s"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.constraint,message:vn_address.constraint_res_city_vn_code_uniq
+msgid "The administrative code must be unique per country."
+msgstr ""
+
+#. module: vn_address
+#. odoo-python
+#: code:addons/vn_address/models/res_city.py:0
+msgid "The administrative unit list is empty or malformed."
+msgstr ""
+
+#. module: vn_address
+#. odoo-python
+#: code:addons/vn_address/models/res_city.py:0
+msgid ""
+"The source returned only %(got)s communes while %(in_use)s are in use; the "
+"synchronisation was cancelled."
+msgstr ""
+
+#. module: vn_address
+#: model_terms:ir.actions.act_window,help:vn_address.action_res_city_vn
+msgid ""
+"Use \"Sync from AddressKit\" to load the communes, wards and special zones "
+"of Vietnam."
+msgstr ""
+
+#. module: vn_address
+#: model:ir.actions.act_window,name:vn_address.action_res_city_vn
+#: model:ir.ui.menu,name:vn_address.menu_res_city_vn
+msgid "Vietnam: Communes / Wards"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.actions.server,name:vn_address.ir_cron_vn_sync_ir_actions_server
+msgid "Vietnam: synchronise administrative units (AddressKit)"
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.fields,help:vn_address.field_res_city__vn_code
+#: model:ir.model.fields,help:vn_address.field_res_country_state__vn_code
+msgid "Vietnamese administrative unit code (Decision 19/2025/QD-TTg)."
+msgstr ""
+
+#. module: vn_address
+#: model:ir.model.fields.selection,name:vn_address.selection__res_city__vn_level__ward
+msgid "Ward"
+msgstr ""
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_search_vn
+msgid "Wards"
+msgstr ""

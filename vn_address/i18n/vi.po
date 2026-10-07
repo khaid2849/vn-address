@@ -1,0 +1,208 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* vn_address
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-26 11:37+0000\n"
+"PO-Revision-Date: 2026-09-26 11:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: vn_address
+#. odoo-python
+#: code:addons/vn_address/models/res_city.py:0
+msgid ""
+"%(created)s created, %(updated)s updated, %(archived)s archived, "
+"%(restored)s restored."
+msgstr ""
+"Thêm mới %(created)s, cập nhật %(updated)s, lưu trữ %(archived)s, khôi phục "
+"%(restored)s."
+
+#. module: vn_address
+#: model:ir.model.fields,field_description:vn_address.field_res_city__active
+msgid "Active"
+msgstr "Đang dùng"
+
+#. module: vn_address
+#: model:ir.model.fields,field_description:vn_address.field_res_city__vn_code
+#: model:ir.model.fields,field_description:vn_address.field_res_country_state__vn_code
+msgid "Administrative Code"
+msgstr "Mã ĐVHC"
+
+#. module: vn_address
+#: model:ir.model.fields,field_description:vn_address.field_res_city__vn_level
+#: model:ir.model.fields,field_description:vn_address.field_res_country_state__vn_level
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_search_vn
+msgid "Administrative Level"
+msgstr "Cấp hành chính"
+
+#. module: vn_address
+#. odoo-python
+#: code:addons/vn_address/models/res_city.py:0
+msgid "Administrative units synchronised"
+msgstr "Đã đồng bộ đơn vị hành chính"
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_search_vn
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_vn_form
+msgid "Archived"
+msgstr "Đã lưu trữ"
+
+#. module: vn_address
+#: model:ir.model.fields.selection,name:vn_address.selection__res_country_state__vn_level__city
+msgid "Centrally-run City"
+msgstr "Thành phố trực thuộc Trung ương"
+
+#. module: vn_address
+#: model:ir.model,name:vn_address.model_res_city
+msgid "City"
+msgstr "Thành phố"
+
+#. module: vn_address
+#: model:ir.model.fields.selection,name:vn_address.selection__res_city__vn_level__commune
+msgid "Commune"
+msgstr "Xã"
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_vn_form
+msgid "Commune / Ward"
+msgstr "Phường / Xã"
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_search_vn
+msgid "Communes"
+msgstr "Xã"
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_vn_list
+msgid "Communes / Wards"
+msgstr "Xã / Phường"
+
+#. module: vn_address
+#: model:ir.model,name:vn_address.model_res_country_state
+msgid "Country state"
+msgstr "Tỉnh / Thành phố"
+
+#. module: vn_address
+#: model:ir.model.fields,field_description:vn_address.field_res_city__display_name
+#: model:ir.model.fields,field_description:vn_address.field_res_country_state__display_name
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#. module: vn_address
+#: model:ir.model.fields,field_description:vn_address.field_res_city__id
+#: model:ir.model.fields,field_description:vn_address.field_res_country_state__id
+msgid "ID"
+msgstr "ID"
+
+#. module: vn_address
+#: model_terms:ir.actions.act_window,help:vn_address.action_res_city_vn
+msgid "No administrative units yet"
+msgstr "Chưa có đơn vị hành chính"
+
+#. module: vn_address
+#. odoo-python
+#: code:addons/vn_address/models/res_city.py:0
+msgid "Only administrators can synchronise administrative units."
+msgstr "Chỉ quản trị viên mới được đồng bộ đơn vị hành chính."
+
+#. module: vn_address
+#: model:ir.model.fields.selection,name:vn_address.selection__res_country_state__vn_level__province
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_search_vn
+msgid "Province"
+msgstr "Tỉnh / Thành phố"
+
+#. module: vn_address
+#: model:ir.model.fields,field_description:vn_address.field_res_city__vn_decree
+msgid "Resolution"
+msgstr "Nghị quyết"
+
+#. module: vn_address
+#: model:ir.model.fields.selection,name:vn_address.selection__res_city__vn_level__special_zone
+msgid "Special Zone"
+msgstr "Đặc khu"
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_search_vn
+msgid "Special Zones"
+msgstr "Đặc khu"
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_vn_list
+msgid "Sync from AddressKit"
+msgstr "Đồng bộ từ AddressKit"
+
+#. module: vn_address
+#. odoo-python
+#: code:addons/vn_address/models/res_city.py:0
+msgid ""
+"Synchronisation failed, nothing was changed:\n"
+"%s"
+msgstr ""
+"Đồng bộ thất bại, không có thay đổi nào:\n"
+"%s"
+
+#. module: vn_address
+#: model:ir.model.constraint,message:vn_address.constraint_res_city_vn_code_uniq
+msgid "The administrative code must be unique per country."
+msgstr "Mã ĐVHC không được trùng trong cùng một quốc gia."
+
+#. module: vn_address
+#. odoo-python
+#: code:addons/vn_address/models/res_city.py:0
+msgid "The administrative unit list is empty or malformed."
+msgstr "Danh sách đơn vị hành chính rỗng hoặc sai cấu trúc."
+
+#. module: vn_address
+#. odoo-python
+#: code:addons/vn_address/models/res_city.py:0
+msgid ""
+"The source returned only %(got)s communes while %(in_use)s are in use; the "
+"synchronisation was cancelled."
+msgstr ""
+"Nguồn chỉ trả về %(got)s xã trong khi đang dùng %(in_use)s xã; đã huỷ đồng "
+"bộ."
+
+#. module: vn_address
+#: model_terms:ir.actions.act_window,help:vn_address.action_res_city_vn
+msgid ""
+"Use \"Sync from AddressKit\" to load the communes, wards and special zones "
+"of Vietnam."
+msgstr ""
+"Bấm \"Đồng bộ từ AddressKit\" để nạp danh sách xã, phường, đặc khu của Việt "
+"Nam."
+
+#. module: vn_address
+#: model:ir.actions.act_window,name:vn_address.action_res_city_vn
+#: model:ir.ui.menu,name:vn_address.menu_res_city_vn
+msgid "Vietnam: Communes / Wards"
+msgstr "Việt Nam: Xã / Phường"
+
+#. module: vn_address
+#: model:ir.actions.server,name:vn_address.ir_cron_vn_sync_ir_actions_server
+msgid "Vietnam: synchronise administrative units (AddressKit)"
+msgstr "Việt Nam: đồng bộ đơn vị hành chính (AddressKit)"
+
+#. module: vn_address
+#: model:ir.model.fields,help:vn_address.field_res_city__vn_code
+#: model:ir.model.fields,help:vn_address.field_res_country_state__vn_code
+msgid "Vietnamese administrative unit code (Decision 19/2025/QD-TTg)."
+msgstr "Mã đơn vị hành chính Việt Nam (Quyết định 19/2025/QĐ-TTg)."
+
+#. module: vn_address
+#: model:ir.model.fields.selection,name:vn_address.selection__res_city__vn_level__ward
+msgid "Ward"
+msgstr "Phường"
+
+#. module: vn_address
+#: model_terms:ir.ui.view,arch_db:vn_address.res_city_search_vn
+msgid "Wards"
+msgstr "Phường"
