@@ -85,7 +85,7 @@ class ResCity(models.Model):
 
     @api.model
     def _vn_sync(self):
-        base = self.env["ir.config_parameter"].sudo().get_param("vn_address.api_url") or DEFAULT_API_URL
+        base = self.env["ir.config_parameter"].sudo().get_str("vn_address.api_url") or DEFAULT_API_URL
         base = base.rstrip("/")
         provinces = self._vn_fetch(f"{base}/latest/provinces", "provinces")
         communes = self._vn_fetch(f"{base}/latest/communes", "communes")
@@ -175,7 +175,7 @@ class ResCity(models.Model):
             gone.write({"active": False})
             stats["archived"] = len(gone)
 
-        self.env["ir.config_parameter"].sudo().set_param(
+        self.env["ir.config_parameter"].sudo().set_str(
             "vn_address.last_sync",
             json.dumps(dict(stats, date=fields.Datetime.to_string(fields.Datetime.now()))),
         )
