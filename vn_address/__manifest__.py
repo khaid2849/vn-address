@@ -2,7 +2,7 @@
     "name": "Vietnam Administrative Units",
     "summary": "34 provinces and 3,321 communes/wards/special zones after the 2025 reform, "
     "synchronised from the AddressKit API (source: National Statistics Office)",
-    "version": "19.0.1.0.0",
+    "version": "20.0.1.0.0",
     "category": "Localization",
     "license": "LGPL-3",
     "author": "Gout",

@@ -1,6 +1,6 @@
 # Vietnam Administrative Units (`vn_address`)
 
-Adds the commune level of Vietnamese addresses to Odoo 19, as it stands after the 2025 administrative
+Adds the commune level of Vietnamese addresses to Odoo 20, as it stands after the 2025 administrative
 reform: 34 provinces and 3,321 communes, wards and special zones (Decision 19/2025/QD-TTg), kept up to date
 from the [AddressKit](https://addresskit.cas.so/) API (source: National Statistics Office of Vietnam).
 
@@ -46,7 +46,7 @@ is left to the modules that depend on it.
 
 ## Tiếng Việt
 
-Module bổ sung cấp xã / phường / đặc khu (3.321 đơn vị, Quyết định 19/2025/QĐ-TTg) cho địa chỉ trong Odoo 19,
+Module bổ sung cấp xã / phường / đặc khu (3.321 đơn vị, Quyết định 19/2025/QĐ-TTg) cho địa chỉ trong Odoo 20,
 có sẵn dữ liệu ngay khi cài và đồng bộ được từ API AddressKit (nguồn: Cục Thống kê). Xem menu
 *Liên hệ › Cấu hình › Việt Nam: Xã / Phường*.
 
